@@ -8,12 +8,20 @@
 <form method = "POST">
     <div> Register new user below!</div>
     <div>
-        <label for = "id"> ID: </label>
-        <input type = "text" name = "id">
+        <label for = "role"> Role: </label>
+        <select id = "role" name ="role">
+            <option value = ''> Select</option>
+            <option value = "manager"> Manager</option>
+            <option value = "driver"> Driver</option>
+        </select>
     </div>
     <div>
-        <label for = "pw"> Password:</label>
-        <input type = "password" name = "pw">
+        <label for = "username"> Username: </label>
+        <input type = "text" name = "username">
+    </div>
+    <div>
+        <label for = "password"> Password:</label>
+        <input type = "password" name = "password">
     </div>
     <button type = "submit" name="button" value="Confirm"> Register User </button>
     <br>
